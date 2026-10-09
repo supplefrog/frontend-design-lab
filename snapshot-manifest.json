@@ -361,8 +361,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/material-reconstruction.md",
-      "sha256": "5e1c6dc039a861590f2c8a43e31dd01368f4b7fa21d24f6e39c9febf250fcb62",
-      "bytes": 3170
+      "sha256": "34c4e67260d44354ce488efa04d733b929d7aa46c5ff78849dac036bbb37b565",
+      "bytes": 3707
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/motion-design.md",
@@ -471,7 +471,7 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
-      "sha256": "9c805ec0afadc5ae46efac2e890359388e928b14b877673736247f2b37ed420e",
+      "sha256": "7a85990ead2df1d2607d78fcc9ae925f31b22ccb6b13e94905a11cf479d2a1d9",
       "bytes": 29765
     },
     {
@@ -603,5 +603,6 @@
   "excluded": [
     "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
   ],
-  "instruction_source_commit": "122e729ef9fa60900ce20b0f107e9561f3f107e2"
+  "instruction_source_commit": "122e729ef9fa60900ce20b0f107e9561f3f107e2",
+  "frontend_skill_source_commit": "b6d6cdc50530ac539bf2dbb9ccaa6c55c61b7d28"
 }
