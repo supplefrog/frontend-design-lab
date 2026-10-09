@@ -1,0 +1,16 @@
+{
+  "algorithm": "sha256",
+  "source_sha256": "67eef8df14c7fd53a07fd0b104e312a24edf21e0d0d48f78def9bd1b8df781fb",
+  "files": {
+    "consistency/components/vendor/three.core.min.js": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de",
+    "consistency/components/vendor/three.module.min.js": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6",
+    "mindlatch/app.css": "7a3d7dbfc75b036084d5938069b055feac25db5b5bbaceee30545b7f85368929",
+    "mindlatch/app.js": "7e7701edb3f1967b83108508a56c62ee4b9a4c79322350e09fd16802f579c988",
+    "mindlatch/assets/chrome-play.png": "974a9434d4a51c50989e3ca827111da1ac36f2d046995733c180ae0e64170831",
+    "mindlatch/assets/replay-landscape.png": "813a2c7f177f345f3a7985073c7fb27728451dcaaf2a4c94fc7202e5dcc2a091",
+    "mindlatch/assets/tension-control.png": "422416cdac9cf4cc47e9703a5f2cf51c32cc02e7d8662bcbe08ee8ea5ee6c272",
+    "mindlatch/controls-3d.js": "90d106bedf0e2bdee1fa04312f79dd44fbcd294ebd1be1701c1f763a9232faca",
+    "mindlatch/index.html": "c662179119c4441b4efbcc134e7e82463f50f791083743854a4c4fb47fbd5e98",
+    "mindlatch/notes-core.js": "0187918e5d0e0cff52637c424746c2b52c2e52d6235c940c43c1f810716d2339"
+  }
+}

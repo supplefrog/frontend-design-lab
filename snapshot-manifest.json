@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "purpose": "Public reusable exemplars and cloud continuation; acceptance scope remains in docs.",
+  "skill_source_repository": "https://github.com/supplefrog/agent-sync",
+  "skill_source_commit": "c531027cb6f1a8b13a1849228abcd4cd1edfd78d",
+  "files": [
+    {
+      "path": "outputs/mindlatch-trial/app.css",
+      "sha256": "a6dc1d01f152e91d11d8f3747db56cfeb06c2493c1c4901e89ebd8a81e53b65e",
+      "bytes": 38039
+    },
+    {
+      "path": "outputs/mindlatch-trial/app.js",
+      "sha256": "223fd14568563522f66da902a6797e2f8108b8673e92e830f2e675d39f267d50",
+      "bytes": 28426
+    },
+    {
+      "path": "outputs/mindlatch-trial/assets/chrome-play.png",
+      "sha256": "974a9434d4a51c50989e3ca827111da1ac36f2d046995733c180ae0e64170831",
+      "bytes": 2049588
+    },
+    {
+      "path": "outputs/mindlatch-trial/assets/phone-reference.png",
+      "sha256": "ee1df34eca7f796c8d269aa18c1a3ed1f7911fca3adf828251b4a8247fbd5444",
+      "bytes": 1778382
+    },
+    {
+      "path": "outputs/mindlatch-trial/assets/replay-landscape.png",
+      "sha256": "813a2c7f177f345f3a7985073c7fb27728451dcaaf2a4c94fc7202e5dcc2a091",
+      "bytes": 1702907
+    },
+    {
+      "path": "outputs/mindlatch-trial/assets/tension-control.png",
+      "sha256": "422416cdac9cf4cc47e9703a5f2cf51c32cc02e7d8662bcbe08ee8ea5ee6c272",
+      "bytes": 1542847
+    },
+    {
+      "path": "outputs/mindlatch-trial/clouds.js",
+      "sha256": "7e8bacaf0fdd80475c37cec7de7bf12934c692218ad56bb5f6739e01a4fa2dd3",
+      "bytes": 4555
+    },
+    {
+      "path": "outputs/mindlatch-trial/controls-3d.js",
+      "sha256": "0e851423ed78620bf144075aca2087027579e68c73b3b726fcd461d3c2753206",
+      "bytes": 25760
+    },
+    {
+      "path": "outputs/mindlatch-trial/index.html",
+      "sha256": "f33a771ab2cea410e216ee7f288e0c1d3c2af7778335cd72fbd0cabe5f405cff",
+      "bytes": 9805
+    },
+    {
+      "path": "outputs/mindlatch-trial/notes-core.js",
+      "sha256": "0187918e5d0e0cff52637c424746c2b52c2e52d6235c940c43c1f810716d2339",
+      "bytes": 9679
+    },
+    {
+      "path": "outputs/mindlatch-trial/source-manifest.json",
+      "sha256": "dd5a4363f191fb0559eba416a02046801e974a76f475db6fb0ef88d6ccf25dd3",
+      "bytes": 1359
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/app.css",
+      "sha256": "d7d5e8079273fedc141283fcad47514625cd2d4a3f0bdfca2e210fc95453171b",
+      "bytes": 39681
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/app.js",
+      "sha256": "223fd14568563522f66da902a6797e2f8108b8673e92e830f2e675d39f267d50",
+      "bytes": 28426
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/assets/chrome-play.png",
+      "sha256": "974a9434d4a51c50989e3ca827111da1ac36f2d046995733c180ae0e64170831",
+      "bytes": 2049588
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/assets/phone-reference.png",
+      "sha256": "ee1df34eca7f796c8d269aa18c1a3ed1f7911fca3adf828251b4a8247fbd5444",
+      "bytes": 1778382
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/assets/replay-landscape.png",
+      "sha256": "813a2c7f177f345f3a7985073c7fb27728451dcaaf2a4c94fc7202e5dcc2a091",
+      "bytes": 1702907
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/assets/tension-control.png",
+      "sha256": "422416cdac9cf4cc47e9703a5f2cf51c32cc02e7d8662bcbe08ee8ea5ee6c272",
+      "bytes": 1542847
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/clouds.js",
+      "sha256": "7e8bacaf0fdd80475c37cec7de7bf12934c692218ad56bb5f6739e01a4fa2dd3",
+      "bytes": 4555
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/controls-3d.js",
+      "sha256": "0e851423ed78620bf144075aca2087027579e68c73b3b726fcd461d3c2753206",
+      "bytes": 25760
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/index.html",
+      "sha256": "60cb43623818ef1e7499525691ec6589c628ac4fd27cf499d312755a9345f48c",
+      "bytes": 9912
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/notes-core.js",
+      "sha256": "0187918e5d0e0cff52637c424746c2b52c2e52d6235c940c43c1f810716d2339",
+      "bytes": 9679
+    },
+    {
+      "path": "outputs/mindlatch-strip-study/source-manifest.json",
+      "sha256": "1107f1e4e1069732164f2ab268cd2d72bd40298ba8a86d19e52abef17789d02b",
+      "bytes": 1413
+    },
+    {
+      "path": "outputs/mindlatch/index.html",
+      "sha256": "c662179119c4441b4efbcc134e7e82463f50f791083743854a4c4fb47fbd5e98",
+      "bytes": 9070
+    },
+    {
+      "path": "outputs/mindlatch/app.css",
+      "sha256": "7a3d7dbfc75b036084d5938069b055feac25db5b5bbaceee30545b7f85368929",
+      "bytes": 33576
+    },
+    {
+      "path": "outputs/mindlatch/app.js",
+      "sha256": "7e7701edb3f1967b83108508a56c62ee4b9a4c79322350e09fd16802f579c988",
+      "bytes": 27468
+    },
+    {
+      "path": "outputs/mindlatch/notes-core.js",
+      "sha256": "0187918e5d0e0cff52637c424746c2b52c2e52d6235c940c43c1f810716d2339",
+      "bytes": 9679
+    },
+    {
+      "path": "outputs/mindlatch/controls-3d.js",
+      "sha256": "90d106bedf0e2bdee1fa04312f79dd44fbcd294ebd1be1701c1f763a9232faca",
+      "bytes": 16494
+    },
+    {
+      "path": "outputs/mindlatch/source-manifest.json",
+      "sha256": "6995e8035f4b2d3d76a6d9a8c809753de3863fa46f87149f241ec8c47110d3a2",
+      "bytes": 1209
+    },
+    {
+      "path": "outputs/mindlatch/assets/chrome-play.png",
+      "sha256": "974a9434d4a51c50989e3ca827111da1ac36f2d046995733c180ae0e64170831",
+      "bytes": 2049588
+    },
+    {
+      "path": "outputs/mindlatch/assets/phone-reference.png",
+      "sha256": "ee1df34eca7f796c8d269aa18c1a3ed1f7911fca3adf828251b4a8247fbd5444",
+      "bytes": 1778382
+    },
+    {
+      "path": "outputs/mindlatch/assets/replay-landscape.png",
+      "sha256": "813a2c7f177f345f3a7985073c7fb27728451dcaaf2a4c94fc7202e5dcc2a091",
+      "bytes": 1702907
+    },
+    {
+      "path": "outputs/mindlatch/assets/tension-control.png",
+      "sha256": "422416cdac9cf4cc47e9703a5f2cf51c32cc02e7d8662bcbe08ee8ea5ee6c272",
+      "bytes": 1542847
+    },
+    {
+      "path": "outputs/consistency/components/vendor/LICENSE-three.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    {
+      "path": "outputs/consistency/components/vendor/three.core.min.js",
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de",
+      "bytes": 381124
+    },
+    {
+      "path": "outputs/consistency/components/vendor/three.module.min.js",
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6",
+      "bytes": 338908
+    },
+    {
+      "path": "outputs/field-audio/index.html",
+      "sha256": "08aed75b38c117c66ad6fb15814f29874d5ae23fc49e9de5f4bbe10ce9a13372",
+      "bytes": 6000
+    },
+    {
+      "path": "outputs/field-audio/app.css",
+      "sha256": "78fcbe136ac0d827313dfb60b8906b76e5351bf886b04a9f986be56303788867",
+      "bytes": 28313
+    },
+    {
+      "path": "outputs/field-audio/app.js",
+      "sha256": "bec2540022dfca9ba2339703a655980b8415819ffd5af04382feb949dbe01b25",
+      "bytes": 23455
+    },
+    {
+      "path": "outputs/field-audio/audio-core.js",
+      "sha256": "2888aef9f4bb879786b91c45718b3b06817f7a5a21e683b8944b04044ea6cd78",
+      "bytes": 11003
+    },
+    {
+      "path": "outputs/field-audio/audio-signal.js",
+      "sha256": "c7f8556d5ce05280f976dd86036a8e3d041749415152c16775fe77114410d618",
+      "bytes": 3820
+    },
+    {
+      "path": "outputs/field-audio/clip-previews.js",
+      "sha256": "67d96b4b2cf2bf725dc9984acfbc773aad7dd55c865640544cd1f403391d475a",
+      "bytes": 7152
+    },
+    {
+      "path": "outputs/field-audio/ribbon-renderer.js",
+      "sha256": "b5e5b049423d23d00b1f49271af6d9ac67dea0bdaccd5bbaaff5f534b6ea33db",
+      "bytes": 17608
+    },
+    {
+      "path": "outputs/field-audio/assets/art-background.png",
+      "sha256": "5488441a127d7f9cf79107a6f3482949d431618a30c76f4fd7892944ac0b3ee7",
+      "bytes": 1944821
+    },
+    {
+      "path": "outputs/field-audio/assets/brand-ribbon.png",
+      "sha256": "ddf2869f7181ce41c69150879312ddf0fde6e49634a7bc556d782d6858516587",
+      "bytes": 823680
+    },
+    {
+      "path": "outputs/field-audio/assets/hover-spectrum.json",
+      "sha256": "2543cdf8b4c441593696aa451026fcae608d3e2b175a7b109da94124ed46ba2f",
+      "bytes": 59057
+    },
+    {
+      "path": "outputs/field-audio/assets/pane-dither.svg",
+      "sha256": "87f07e39110ee9de924a1ae39c65d6bb29d997d52fd42aa8022ba3a3d8590688",
+      "bytes": 426
+    },
+    {
+      "path": "outputs/field-audio/assets/sample.json",
+      "sha256": "6bf4787ea500eb4da59bcf49163c1b3191c4fc33d1dc6c6341424d938608238a",
+      "bytes": 10412
+    },
+    {
+      "path": "outputs/field-audio/assets/synthetic-study.wav",
+      "sha256": "f86796f178a48b7c5ef83ba56ec1ea10c58b94c8eee590f7d0e7707ac7f9f927",
+      "bytes": 1323044
+    },
+    {
+      "path": "references/mindlatch/instrument-master.png",
+      "sha256": "6c8938d4e2102c59c07bed6dbb64e60e344c0d1585b1e1f904cadf1fe3a8404f",
+      "bytes": 2019808
+    },
+    {
+      "path": "references/mindlatch/library-master.png",
+      "sha256": "754635b92b942ae0653cfb52674894cfa83557acbb89111f1d5d53bd6c3bdb67",
+      "bytes": 1954042
+    },
+    {
+      "path": "references/sondara/master.png",
+      "sha256": "e849d51890dc5c9ff581f90c53ec3ba9b9f768ee1795778ad1b4805d22bf4eaa",
+      "bytes": 1966632
+    },
+    {
+      "path": "references/sondara/mobile.png",
+      "sha256": "2115da495855632d7bb38ed54834cc0062fcaa9f021172e12910d77b23d0cab4",
+      "bytes": 1886714
+    },
+    {
+      "path": "references/sondara/states.png",
+      "sha256": "ce1547c6f1ce11413df012dabf535f350c39846e45c305756c2a0142cb38858f",
+      "bytes": 1793594
+    },
+    {
+      "path": "references/mindlatch/fitted-strip.png",
+      "sha256": "b0bfa1edc71c48c28620bfe577fd551443c9e00cb361635cd6da15deef044efc",
+      "bytes": 835123
+    },
+    {
+      "path": "references/mindlatch/current-capture.png",
+      "sha256": "3fbddb040238ea3ae9f4064425733f956a95eecef16a1a6c484aa0a4b87bc3b1",
+      "bytes": 516783
+    },
+    {
+      "path": "references/sondara/accepted-pane-detail.jpg",
+      "sha256": "b2b07e184646b58fb7c31173ced1312e4caffc312b5f0ad44f9b4df276bf6143",
+      "bytes": 69096
+    },
+    {
+      "path": "references/sondara/reactive-desktop.png",
+      "sha256": "51e2cd168e99cf7b93fe7ff7ef6a3c84d3d033578a224e9d03e85ef368da10be",
+      "bytes": 897337
+    },
+    {
+      "path": "work/mindlatch/physical-control-direction.test.mjs",
+      "sha256": "2d20cd8312500fe8d4d52c58ff4f2d39c754b51ca72757860ddf86e12437bfc2",
+      "bytes": 9954
+    },
+    {
+      "path": "work/mindlatch/notes-core.test.mjs",
+      "sha256": "ff64d1976577735d80e0fe347bb872a59a2d4379cb085c00f822d8f1c09823d1",
+      "bytes": 6510
+    },
+    {
+      "path": "work/field-audio/audio-core.test.mjs",
+      "sha256": "24498dcae7a7d1a2046df7427844e9e192ca2462cdf7f6872276892705ff8b23",
+      "bytes": 4255
+    },
+    {
+      "path": "work/field-audio/selection-transport.test.mjs",
+      "sha256": "b2ad945a496539b5101e42191f3ba5241d8401034b6912cccae31588fc807edc",
+      "bytes": 2462
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/assets/selector-focus.js",
+      "sha256": "eb7db0c19119879349af8f238414552e2069befce23e3d00cd1b45521eee7222",
+      "bytes": 1740
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/LICENSE",
+      "sha256": "b88ef8718459d5b5aabb1943cb8f4fd57963422f2d98a801dac814fea53932c8",
+      "bytes": 1089
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/accessibility-checklist.md",
+      "sha256": "060fe46a19cdadc93325066af51bda1e8b70b44a550c7b08a5d5bdc596d23a0b",
+      "bytes": 6651
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/component-selection.md",
+      "sha256": "9028545890aac4370d5f16c969368c4f2bdf9e7ee7cdbe751b8944b6b27eee6d",
+      "bytes": 8345
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/component-state.md",
+      "sha256": "ddc015d1682d0553451320a8ec600c57ba0d63c31bfb9e8f823efbccb638a96d",
+      "bytes": 1494
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/coverage-schema.md",
+      "sha256": "2c735809bdce54d2e0fb0ad3cae5cfd779a20f5c0fe614fba27a19020fa4ce4c",
+      "bytes": 17723
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/defect-acceptance.md",
+      "sha256": "d9f793c20515059a1ca75316aac660de297634877bd2f9f815406fcda1667d55",
+      "bytes": 15290
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/defect-gate-schema.md",
+      "sha256": "d7def0e0b0392e966142eaf28f911a988682ab51a140fe3ee09787a99bd44c71",
+      "bytes": 7561
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/design-judgment.md",
+      "sha256": "e06beca7ef9c7dddbc8ebdb44060fbb7739288d2e9772bb01bf88333e0319f9f",
+      "bytes": 18729
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/liked-motion-options.md",
+      "sha256": "9821fce6161291587e6e121a902a2063893b695d90a389ed3f48432b72c1ec54",
+      "bytes": 9387
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/material-reconstruction.md",
+      "sha256": "5e1c6dc039a861590f2c8a43e31dd01368f4b7fa21d24f6e39c9febf250fcb62",
+      "bytes": 3170
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/motion-design.md",
+      "sha256": "6b7c842751423c798a18847d90961639d8baac7f2b684ce4bc5313e974fa0b4d",
+      "bytes": 13318
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/personal-design-defaults.md",
+      "sha256": "b3cc245d48f483893574330f0834e06c72f42803682542ed62e471a2eac2141f",
+      "bytes": 10990
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/prototype-LICENSE.txt",
+      "sha256": "4ff5bdb7887ec1435c9cab0e8d1a7caee704d894d65c2a008ccc68b1cc2f260b",
+      "bytes": 1070
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/prototype-variants.md",
+      "sha256": "9293b8b08ab0d02ba4e3ac7193903cf2705badb6ad23981030dbae0f90c98a55",
+      "bytes": 3678
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/provenance.md",
+      "sha256": "6f1d90d297c4cab50f40c98cfbb54ed3ddc05b7e5ec724c2bd415a8c127e37a2",
+      "bytes": 26088
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/regression-catalog.json",
+      "sha256": "98f2294ebc30dd56a7691843b96c964efbfb04a562e62da05add6b82f26bab02",
+      "bytes": 59458
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/regression-catalog.md",
+      "sha256": "4fa8cc7e3567b12c570a499fc75cee02a07f11a31e9fe0402554aad196623201",
+      "bytes": 40879
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/resource-catalog.md",
+      "sha256": "c26cbad205afbf2008984d68b0608fb04337d47dd9798b61383180bc40bda588",
+      "bytes": 9880
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/selector-feedback.md",
+      "sha256": "68552c02760e938d1a315b2bc1314436b71d0934beccc99f66a8248aec4336b2",
+      "bytes": 3867
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/taste-selection.md",
+      "sha256": "8b893e1ac325cc380d70c52be7b7d4c0495e4654db10fa5c721c4b54e3ee6796",
+      "bytes": 8704
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/references/webpage-workflow.md",
+      "sha256": "23bc2b208284619b3cbcbaa1d018e23c125e560c8def8e0f9c4a012eb3152654",
+      "bytes": 4844
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/check_regression_catalog.py",
+      "sha256": "8a566e018202e09b155aff843ef436b2e2b636143162dd82992ee545c31ce70c",
+      "bytes": 20247
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/contract.example.json",
+      "sha256": "f89667c47c1d4f5ab59bbeb5b61da5337f0dbacde5d8b1d513893428c751a729",
+      "bytes": 539
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/frontend_coverage.py",
+      "sha256": "00391cb3bb564ccd26c893bf1570ac92744cf4a51d5f2457d1c2ebbb70083603",
+      "bytes": 36213
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/frontend_gate.py",
+      "sha256": "6e60dc7fd378dd8a88f52beab33346a869291d6d2736a6838e1db83ae3fea0b7",
+      "bytes": 9318
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/observations.bad.json",
+      "sha256": "f367a92eb0af728308bc68aa2d1ab6abdcd18710f86d9b273cb9ecfe8a9c93aa",
+      "bytes": 215
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/observations.clean.json",
+      "sha256": "62bf9645aa9a593bad5640289659587c66c38faa3a76c5d3825f201d76208fe6",
+      "bytes": 1245
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/observations.missing.json",
+      "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+      "bytes": 3
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/test_frontend_coverage.py",
+      "sha256": "f147120867b19b7ef648c836b353dd8accb426e7ed70a1e684ecc98acdbce5c5",
+      "bytes": 33380
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/test_frontend_gate.py",
+      "sha256": "5fdbbc72d2efaec3f800dc8eb24fa2a637b1b228daafc1531cc621bd9da3959f",
+      "bytes": 8604
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/test_selector_focus.mjs",
+      "sha256": "e5f81b0d8608de650634b631fc5a06d18e9efeab680fcedf3e883c7d531917c2",
+      "bytes": 2260
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
+      "sha256": "7829545d6755557a3f4276ed2b0eddfb3146150248c3aef096a50498fda66a86",
+      "bytes": 29765
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/SOURCE.json",
+      "sha256": "4e2b6dee6c9b11fd97a3e83b7c200e6e0253650ca705f1019ad1ccecda434192",
+      "bytes": 618
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/templates/taste-picker.html",
+      "sha256": "9ffd0c228bb4253c69b95f4481ea9a0c7c0092d4edd985e63a83ae590bd37bbf",
+      "bytes": 10300
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/references/windows-node-path-shadowing.md",
+      "sha256": "53a4e9a2bd0ce1e1ddcb4afbe7a5e7ee3b221583c77e6db1d4950e2428a26a75",
+      "bytes": 2698
+    },
+    {
+      "path": ".agents/skills/systematic-debugging/SKILL.md",
+      "sha256": "2aeaadec04aa91dea335366da79111abe28ee502c3e204ca2fe84be06ca9f1eb",
+      "bytes": 3767
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/references/host-association.md",
+      "sha256": "f58e556e9760ffbe1c0a59d0feb0343284202d77b768e9df8883826f32225df7",
+      "bytes": 713
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/references/provenance.md",
+      "sha256": "b67f47df07a707c0b00fd50bbd9bc415f21af714cb1e407f635fbb1e31940c7e",
+      "bytes": 993
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/references/task-artifacts.md",
+      "sha256": "e1b652a700d1f2be611c5d9991fb84e51848ddc3c0401b80f98449d3ea4486dc",
+      "bytes": 3062
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/references/usage.md",
+      "sha256": "6c830aa8ba4a4da84c542ffb68a13d1f2818ca6a049629231aa83403a157130c",
+      "bytes": 5256
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/scripts/breadcrumb.py",
+      "sha256": "ff4a322c848203268692f673b889f1778c327ad189f8928b2a5eaf004e408411",
+      "bytes": 20638
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/scripts/task_artifacts.py",
+      "sha256": "5c55c08fff7481c762499873a4ce8e0c46d85d2d557e74e5e2444e438f19d0ef",
+      "bytes": 11119
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/scripts/test_breadcrumb.py",
+      "sha256": "57f58a60a48946c99e63d4d6d79a4143bf7b5d47290170f95bb5db9129ff7907",
+      "bytes": 18319
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/scripts/test_task_artifacts.py",
+      "sha256": "5e2f76dc32178e9e502046d09a8844a66526b8905bdb6e4684f72432dd889228",
+      "bytes": 7760
+    },
+    {
+      "path": ".agents/skills/breadcrumb-records/SKILL.md",
+      "sha256": "c5c8901eacc9b65ad8b85c6885b6fe90a4c7913fce427d6b421ffdb0e863dd6d",
+      "bytes": 6762
+    },
+    {
+      "path": ".agents/skills/instruction-authoring/references/change-review.md",
+      "sha256": "c148af47bf1062e0238e2a06d6da109e84b654057ec5b7dc055066546ed1a3ff",
+      "bytes": 4331
+    },
+    {
+      "path": ".agents/skills/instruction-authoring/references/useful-behaviors.md",
+      "sha256": "c16ee11e63c9c443b12e761f0a400270fb26f90236ce4dd5b062420219cc90e4",
+      "bytes": 3557
+    },
+    {
+      "path": ".agents/skills/instruction-authoring/SKILL.md",
+      "sha256": "be647b9e307807ac3e24d398509849495ef4fc45f9d678081b22fb4d87ec1712",
+      "bytes": 14322
+    },
+    {
+      "path": ".agents/skills/outcome-first-workflow-design/SKILL.md",
+      "sha256": "a292cb113f0392a208da080c608ddcec214756d19876ae7dc25d9635b37120e3",
+      "bytes": 6875
+    },
+    {
+      "path": ".agents/context/core.md",
+      "sha256": "b9c20a83e75d872259cadfcb6463f87593b17e90e9e78905957176fbbb0b5cb2",
+      "bytes": 11596
+    },
+    {
+      "path": ".agents/context/code-verification.md",
+      "sha256": "7911ecd4dff7d15615a54ae904d2a08ee21e0a636442b8b1e9923bd053d443e6",
+      "bytes": 4086
+    }
+  ],
+  "excluded": [
+    "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
+  ]
+}
