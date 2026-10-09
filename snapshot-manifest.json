@@ -561,8 +561,8 @@
     },
     {
       "path": ".agents/context/core.md",
-      "sha256": "b9c20a83e75d872259cadfcb6463f87593b17e90e9e78905957176fbbb0b5cb2",
-      "bytes": 11596
+      "sha256": "65854743578d30f9f10d05a83e370cd53ede76da00710a29288d6e6f7c8168b0",
+      "bytes": 11787
     },
     {
       "path": ".agents/context/code-verification.md",
@@ -602,5 +602,6 @@
   ],
   "excluded": [
     "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
-  ]
+  ],
+  "instruction_source_commit": "122e729ef9fa60900ce20b0f107e9561f3f107e2"
 }

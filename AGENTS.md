@@ -1,5 +1,7 @@
 # Cloud continuation
 
+Continue project work in its compatible configured native Codex cloud environment by default. Reuse the repository-linked `frontend-design-lab` environment; use the user's PC when local applications, files or hardware are required. Verify the environment and repository binding before dispatch. A one-off sandbox does not replace the reusable environment, and trivial questions need no new task.
+
 Read `docs/CONTINUATION.md` before editing. Preserve both examples and their selected reference images. Use the accepted craft level as the minimum for new generations without turning the palette, physical metaphor or component shapes into a universal theme. The workflow should find consequential defects before asking the user to identify them. Passing source tests is separate from rendered quality and taste approval.
 
 This repository supplies relevant skill snapshots under `.agents/skills`. Read `frontend-ui-engineering/SKILL.md`, its defect-acceptance, material-reconstruction and motion references for UI work; read other skills only when their procedures apply. Record actual skill/support-file reads and hashes in the cloud receipt. Do not assume local skills, browser state or Windows applications were inherited.

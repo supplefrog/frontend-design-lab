@@ -28,6 +28,8 @@ Current main1a has nine passing production-handler tests, direct held dial track
 
 ## Checks and cloud handoff
 
+The repository-linked native Codex cloud environment `frontend-design-lab` is published. Its prepared Linux checkout verified all 119 preserved files and passed the 18 documented tests. Chromium loaded the gallery and all four studies, with audio playback and browser storage checks. Startup instructions retain explicit project-skill loading and service restart; no product dependency installation or credentials are required. No GPU device is exposed, so software WebGL establishes rendering compatibility rather than hardware performance. Publication and the attached runtime were verified; fresh-task restoration has not yet been verified. Use this reusable environment for further project work by default, with PC execution reserved for necessary local dependencies. The environment is private while this source repository remains public.
+
 ```sh
 python3 tools/verify_snapshot.py
 node work/mindlatch/physical-control-direction.test.mjs
