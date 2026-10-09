@@ -2,7 +2,7 @@
   "schema_version": 1,
   "purpose": "Public reusable exemplars and cloud continuation; acceptance scope remains in docs.",
   "skill_source_repository": "https://github.com/supplefrog/agent-sync",
-  "skill_source_commit": "c531027cb6f1a8b13a1849228abcd4cd1edfd78d",
+  "skill_source_commit": "d72a3349627a4c49f3569900c9604e1a9b673263",
   "files": [
     {
       "path": "outputs/mindlatch-trial/app.css",
@@ -371,8 +371,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/personal-design-defaults.md",
-      "sha256": "b3cc245d48f483893574330f0834e06c72f42803682542ed62e471a2eac2141f",
-      "bytes": 10990
+      "sha256": "67859cfebcf551ddac5845113fa43b2f8ffd8df3bde6c00e8bf85d51474e8078",
+      "bytes": 11513
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/prototype-LICENSE.txt",
@@ -386,8 +386,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/provenance.md",
-      "sha256": "6f1d90d297c4cab50f40c98cfbb54ed3ddc05b7e5ec724c2bd415a8c127e37a2",
-      "bytes": 26088
+      "sha256": "0fada853aa4d4d8d50bbfa1591d012a57c351b015d04062fcf972517593349e0",
+      "bytes": 26599
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/regression-catalog.json",
@@ -471,7 +471,7 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
-      "sha256": "7829545d6755557a3f4276ed2b0eddfb3146150248c3aef096a50498fda66a86",
+      "sha256": "9c805ec0afadc5ae46efac2e890359388e928b14b877673736247f2b37ed420e",
       "bytes": 29765
     },
     {
