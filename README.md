@@ -2,6 +2,8 @@
 
 Runnable Sondara and Mindlatch design studies, their selected visual references, and the skills needed to continue in cloud. The user accepted their overall direction and the sharpened Mindlatch controls, and prefers its fitted strip display. These are a craft baseline, not a claim that every interaction is finished.
 
+Browse the [live reference hub](https://supplefrog.github.io/frontend-design-lab/).
+
 Run from this repository with Python:
 
 ```sh
@@ -16,6 +18,7 @@ Open `http://localhost:8784/` for the gallery. No product dependency installatio
 - [Mindlatch earlier implementation](outputs/mindlatch/index.html): preserved comparison.
 - [Accepted qualities and pending work](docs/CONTINUATION.md).
 - [Skill snapshot and verification](snapshot-manifest.json).
+- [Recoverable cleanup and restore route](docs/RECOVERY.md).
 
 Skill copies retain their originating metadata and licenses; they are portable snapshots, not new canonical owners. Shared skills are maintained in [Agent Sync](https://github.com/supplefrog/agent-sync). They do not load automatically merely because cloud cloned the repository: follow [AGENTS.md](AGENTS.md) and verify the actual reads.
 

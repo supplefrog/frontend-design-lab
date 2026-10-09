@@ -568,6 +568,36 @@
       "path": ".agents/context/code-verification.md",
       "sha256": "7911ecd4dff7d15615a54ae904d2a08ee21e0a636442b8b1e9923bd053d443e6",
       "bytes": 4086
+    },
+    {
+      "path": "outputs/field-audio/reference.html",
+      "sha256": "5e03544df5bf70b22da473407df9d6956b182c423a5c8ed4357ba0b9cf92811c",
+      "bytes": 2628
+    },
+    {
+      "path": "outputs/field-audio/directions/b-ribbon.png",
+      "sha256": "e849d51890dc5c9ff581f90c53ec3ba9b9f768ee1795778ad1b4805d22bf4eaa",
+      "bytes": 1966632
+    },
+    {
+      "path": "outputs/field-audio/directions/mobile.png",
+      "sha256": "2115da495855632d7bb38ed54834cc0062fcaa9f021172e12910d77b23d0cab4",
+      "bytes": 1886714
+    },
+    {
+      "path": "outputs/field-audio/directions/states.png",
+      "sha256": "ce1547c6f1ce11413df012dabf535f350c39846e45c305756c2a0142cb38858f",
+      "bytes": 1793594
+    },
+    {
+      "path": "outputs/mindlatch/workflow/response-contract.json",
+      "sha256": "89e0869359a2b3ae8b57d03c7ac770db6797051cd0b6ff5d6b63ca5aa223190e",
+      "bytes": 34598
+    },
+    {
+      "path": "outputs/mindlatch/workflow/response-report.json",
+      "sha256": "cf94d4789394a492e95d83b848395f062e3beab91db84ee9fac92654f89f5795",
+      "bytes": 13435
     }
   ],
   "excluded": [

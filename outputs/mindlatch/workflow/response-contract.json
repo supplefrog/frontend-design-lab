@@ -1,0 +1,1025 @@
+{
+  "schema_version": 1,
+  "scope": "product",
+  "source_sha256": "1a167dc41fb7c78f196630bddccd131736f692424c0accd2220a087f0e64029f",
+  "features": [
+    "assets",
+    "textarea",
+    "form",
+    "scroller",
+    "selection-scroller",
+    "direct-selection",
+    "animated-transition",
+    "illustration-motion",
+    "diagram",
+    "plus-minus",
+    "transforming-symbol"
+  ],
+  "selected": [],
+  "requirements": [
+    {
+      "id": "P01",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "contribution",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P02",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "meaning-context",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P03",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "meaningful-notation",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P04",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "P05",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "P06",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "action-context",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "rendered-economy",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P07",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "P08",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "navigation-job",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "rendered-role",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "P09",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "P10",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "P11",
+      "disposition": "project",
+      "cases": [],
+      "reason": "Project-specific decision is retained at its original scope."
+    },
+    {
+      "id": "P12",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "ordinary-activation",
+          "method": "browser",
+          "context": {
+            "viewport": "1280x900",
+            "modality": "trusted pointer",
+            "state": "Current Replay after manual return to top; repeated destination activation; genuine Capture-to-Replay entry and current-home logo",
+            "browser": "Codex IAB Chromium",
+            "capture": "Trusted mouse coordinates; document scroll and height readback"
+          }
+        },
+        {
+          "id": "reported-context",
+          "method": "browser",
+          "context": {
+            "viewport": "1280x900",
+            "modality": "trusted pointer",
+            "state": "Current Replay after manual return to top; repeated destination activation; genuine Capture-to-Replay entry and current-home logo",
+            "browser": "Codex IAB Chromium",
+            "capture": "Trusted mouse coordinates; document scroll and height readback"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V01",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "product-relationship",
+          "method": "rendered",
+          "context": {
+            "viewport": "1280x900, 320x900 and 390x900",
+            "modality": "pointer and keyboard",
+            "state": "Established casing; live controls at rest, travel endpoints, press/release and inactive All Notes",
+            "browser": "Codex IAB Chromium",
+            "capture": "Visible viewport at actual document scroll; post-capture position verified"
+          },
+          "reference_ids": [
+            "instrument-master",
+            "library-master"
+          ],
+          "criteria": [
+            "Approved silhouette and pose",
+            "Control scale within its panel",
+            "Neighboring alignment and spacing",
+            "Material and lighting family",
+            "Assembled device: seating, joinery and shared lighting",
+            "Compatible casing and mating corner profiles",
+            "Complete operating envelope and coherent inactive bay",
+            "Perceptible cap press and release at normal use size"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V02",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "V03",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "V04",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "V05",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "integrated-scale",
+          "method": "rendered",
+          "context": {
+            "viewport": "1280x900, 320x900 and 390x900",
+            "modality": "pointer and keyboard",
+            "state": "Established casing; live controls at rest, travel endpoints, press/release and inactive All Notes",
+            "browser": "Codex IAB Chromium",
+            "capture": "Visible viewport at actual document scroll; post-capture position verified",
+            "additional_reported_context": "Native Chrome 1946x1016 at existing DPR 0.8333 browser zoom; rendered minification versus frozen8090; final IAB1280x900 capture"
+          },
+          "reference_ids": [
+            "instrument-master",
+            "library-master"
+          ],
+          "criteria": [
+            "Approved silhouette and pose",
+            "Control scale within its panel",
+            "Neighboring alignment and spacing",
+            "Material and lighting family",
+            "Assembled device: seating, joinery and shared lighting",
+            "Compatible casing and mating corner profiles",
+            "Complete operating envelope and coherent inactive bay",
+            "Perceptible cap press and release at normal use size",
+            "Preserved control detail and coherent antialiased edges at reported browser zoom"
+          ]
+        },
+        {
+          "id": "comparison-width",
+          "method": "rendered",
+          "context": {
+            "viewport": "1280x900, 320x900 and 390x900",
+            "modality": "pointer and keyboard",
+            "state": "Established casing; live controls at rest, travel endpoints, press/release and inactive All Notes",
+            "browser": "Codex IAB Chromium",
+            "capture": "Visible viewport at actual document scroll; post-capture position verified",
+            "additional_reported_context": "Native Chrome 1946x1016 at existing DPR 0.8333 browser zoom; rendered minification versus frozen8090; final IAB1280x900 capture"
+          },
+          "reference_ids": [
+            "instrument-master",
+            "library-master"
+          ],
+          "criteria": [
+            "Approved silhouette and pose",
+            "Control scale within its panel",
+            "Neighboring alignment and spacing",
+            "Material and lighting family",
+            "Assembled device: seating, joinery and shared lighting",
+            "Compatible casing and mating corner profiles",
+            "Complete operating envelope and coherent inactive bay",
+            "Perceptible cap press and release at normal use size",
+            "Preserved control detail and coherent antialiased edges at reported browser zoom"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V06",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "edge-and-baseline",
+          "method": "rendered",
+          "context": {
+            "viewport": "1280x900, 320x900 and 390x900",
+            "modality": "pointer and keyboard",
+            "state": "Established casing; live controls at rest, travel endpoints, press/release and inactive All Notes",
+            "browser": "Codex IAB Chromium",
+            "capture": "Visible viewport at actual document scroll; post-capture position verified"
+          },
+          "reference_ids": [
+            "instrument-master",
+            "library-master"
+          ],
+          "criteria": [
+            "Approved silhouette and pose",
+            "Control scale within its panel",
+            "Neighboring alignment and spacing",
+            "Material and lighting family",
+            "Assembled device: seating, joinery and shared lighting",
+            "Painted geometry matches semantic anchors",
+            "Compatible casing and mating corner profiles",
+            "Complete operating envelope and coherent inactive bay",
+            "Perceptible cap press and release at normal use size"
+          ]
+        },
+        {
+          "id": "intentional-space",
+          "method": "rendered",
+          "context": {
+            "viewport": "1280x900, 320x900 and 390x900",
+            "modality": "pointer and keyboard",
+            "state": "Established casing; live controls at rest, travel endpoints, press/release and inactive All Notes",
+            "browser": "Codex IAB Chromium",
+            "capture": "Visible viewport at actual document scroll; post-capture position verified"
+          },
+          "reference_ids": [
+            "instrument-master",
+            "library-master"
+          ],
+          "criteria": [
+            "Approved silhouette and pose",
+            "Control scale within its panel",
+            "Neighboring alignment and spacing",
+            "Material and lighting family",
+            "Assembled device: seating, joinery and shared lighting",
+            "Compatible casing and mating corner profiles",
+            "Complete operating envelope and coherent inactive bay",
+            "Perceptible cap press and release at normal use size"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V07",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "node-attachment",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "resize-and-state",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V08",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "first-last-halo",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "scroll-extremes",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V09",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "focus-neighbors",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "paint-boundaries",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V10",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "long-content",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "local-edges",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V11",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "content-stress",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "paint-and-layout",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V12",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "V13",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "V14",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "pointer-keyboard",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "authored-native-boundary",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "arrow-insets",
+          "method": "source",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V15",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "visual-center",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "opening-closing-reversal",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "V16",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "V17",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "V18",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "V19",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I01",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I02",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I03",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I04",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I05",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I06",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I07",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "I08",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I09",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I10",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "stroke-continuity",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "stable-center-reversal",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I11",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "depicted-object-activation",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "keyboard-equivalent",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I12",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I13",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I14",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I15",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I16",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I17",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I18",
+      "disposition": "tentative",
+      "cases": [],
+      "reason": "Tentative observation remains a separate unresolved decision."
+    },
+    {
+      "id": "I19",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I20",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I21",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I22",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "I23",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "continuous-state-transform",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "center-reversal-semantics",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "reduced-motion",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I24",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "I25",
+      "disposition": "required",
+      "cases": [
+        {
+          "id": "active-window-response",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "entry-and-reload",
+          "method": "browser",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        },
+        {
+          "id": "repeated-normal-speed",
+          "method": "rendered",
+          "context": {
+            "viewport": "448x668",
+            "modality": "pointer",
+            "state": "Current capture; breadth 0 and 100; source-bound foreground captures",
+            "browser": "Codex IAB Chromium",
+            "capture": "native viewport"
+          }
+        }
+      ]
+    },
+    {
+      "id": "I26",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R01",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R02",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R03",
+      "disposition": "project",
+      "cases": [],
+      "reason": "Project-specific decision is retained at its original scope."
+    },
+    {
+      "id": "R04",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R05",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R06",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R07",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R08",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "R09",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R10",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "R11",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R12",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R13",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R14",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R15",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R16",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "R17",
+      "disposition": "project",
+      "cases": [],
+      "reason": "Project-specific decision is retained at its original scope."
+    },
+    {
+      "id": "R18",
+      "disposition": "project",
+      "cases": [],
+      "reason": "Project-specific decision is retained at its original scope."
+    },
+    {
+      "id": "R19",
+      "disposition": "unselected",
+      "cases": [],
+      "reason": "Optional capability is not selected for this product."
+    },
+    {
+      "id": "A01",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "A02",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "A03",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    },
+    {
+      "id": "A04",
+      "disposition": "not_applicable",
+      "cases": [],
+      "reason": "No declared product feature matches; collector must verify feature absence."
+    }
+  ],
+  "references": [
+    {
+      "id": "instrument-master",
+      "evidence": "image-studies/instrument-mockup.png",
+      "sha256": "6c8938d4e2102c59c07bed6dbb64e60e344c0d1585b1e1f904cadf1fe3a8404f",
+      "authority": "User-selected blue/pink/yellow Mindlatch master"
+    },
+    {
+      "id": "library-master",
+      "evidence": "consistency/library-mockup.png",
+      "sha256": "754635b92b942ae0653cfb52674894cfa83557acbb89111f1d5d53bd6c3bdb67",
+      "authority": "Accepted related Library layout; master governs conflicting derivatives"
+    }
+  ],
+  "changes": {
+    "V01": "Human rejected current7f whole casing and prefers original67 corner profiles/object lighting; revised representation retains established CSS casing and live operating controls. All previous cases/criteria remain; actual tested widths are 1280/320/390.",
+    "V05": "Human rejected current7f whole casing and prefers original67 corner profiles/object lighting; revised representation retains established CSS casing and live operating controls. All previous cases/criteria remain; actual tested widths are 1280/320/390. User reports zoomed-out aliasing and rejects the first filtered result as too low resolution. Retain all previous criteria and widths; add actual reported Chrome zoom and detail criterion. Unexercised inherited contexts remain incomplete.",
+    "V06": "Human rejected current7f whole casing and prefers original67 corner profiles/object lighting; revised representation retains established CSS casing and live operating controls. All previous cases/criteria remain; actual tested widths are 1280/320/390.",
+    "P12": "User reports unwanted movement on already-current Replay/home activation. Preserve both browser cases and distinguish current destination from genuine navigation in the tested context."
+  }
+}

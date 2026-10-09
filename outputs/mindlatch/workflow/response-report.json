@@ -1,0 +1,347 @@
+{
+  "status": "incomplete",
+  "coverage_status": "incomplete",
+  "measurement_status": "not_applicable",
+  "pre_review_status": "incomplete",
+  "pre_review_ready": false,
+  "pending_later_cases": [],
+  "ready": false,
+  "checks": [
+    {
+      "id": "P01:contribution",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P02:meaning-context",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P03:meaningful-notation",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P06:action-context",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P06:rendered-economy",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P08:navigation-job",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P08:rendered-role",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "P12:ordinary-activation",
+      "status": "pass",
+      "finding": "Matched trusted repeated Replay input keeps scroll0 and document height1380; frozen8090 shifts272.8px. Genuine Capture-to-Replay still enters its section; same-home activation stays at0. Locator-only5.6px artifact is retained and excluded from causal claim. Keyboard source-seam tests are separate evidence; the earlier8bc browser keyboard pass is not rebound as a final1a browser pass.",
+      "evidence": [
+        "mindlatch/workflow/navigation-matched-evidence.json",
+        "mindlatch/workflow/navigation-current-evidence.json",
+        "mindlatch/workflow/renderer-response-findings.md"
+      ]
+    },
+    {
+      "id": "P12:reported-context",
+      "status": "pass",
+      "finding": "Matched trusted repeated Replay input keeps scroll0 and document height1380; frozen8090 shifts272.8px. Genuine Capture-to-Replay still enters its section; same-home activation stays at0. Locator-only5.6px artifact is retained and excluded from causal claim. Keyboard source-seam tests are separate evidence; the earlier8bc browser keyboard pass is not rebound as a final1a browser pass.",
+      "evidence": [
+        "mindlatch/workflow/navigation-matched-evidence.json",
+        "mindlatch/workflow/navigation-current-evidence.json",
+        "mindlatch/workflow/renderer-response-findings.md"
+      ]
+    },
+    {
+      "id": "V01:product-relationship",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V05:integrated-scale",
+      "status": "incomplete",
+      "finding": "Current control geometry/materials retain frozen8090 construction; final source is captured at native reported zoom and IAB1280. Broader inherited phone/endpoints/inactive/press comparison and human detail judgment are not re-certified by this bounded renderer repair."
+    },
+    {
+      "id": "V05:integrated-scale:Approved silhouette and pose",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Control scale within its panel",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Neighboring alignment and spacing",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Material and lighting family",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Assembled device: seating, joinery and shared lighting",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Compatible casing and mating corner profiles",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Complete operating envelope and coherent inactive bay",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Perceptible cap press and release at normal use size",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:integrated-scale:Preserved control detail and coherent antialiased edges at reported browser zoom",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width",
+      "status": "incomplete",
+      "finding": "Current control geometry/materials retain frozen8090 construction; final source is captured at native reported zoom and IAB1280. Broader inherited phone/endpoints/inactive/press comparison and human detail judgment are not re-certified by this bounded renderer repair."
+    },
+    {
+      "id": "V05:comparison-width:Approved silhouette and pose",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Control scale within its panel",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Neighboring alignment and spacing",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Material and lighting family",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Assembled device: seating, joinery and shared lighting",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Compatible casing and mating corner profiles",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Complete operating envelope and coherent inactive bay",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Perceptible cap press and release at normal use size",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V05:comparison-width:Preserved control detail and coherent antialiased edges at reported browser zoom",
+      "status": "incomplete",
+      "finding": "Current desktop capture is retained; the entire inherited context and preferred detail are not established by this scoped pass."
+    },
+    {
+      "id": "V06:edge-and-baseline",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V06:intentional-space",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V07:node-attachment",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V07:resize-and-state",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V08:first-last-halo",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V08:scroll-extremes",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V09:focus-neighbors",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V09:paint-boundaries",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V10:long-content",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V10:local-edges",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V11:content-stress",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V11:paint-and-layout",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V14:pointer-keyboard",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V14:authored-native-boundary",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V14:arrow-insets",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V15:visual-center",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "V15:opening-closing-reversal",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I10:stroke-continuity",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I10:stable-center-reversal",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I11:depicted-object-activation",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I11:keyboard-equivalent",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I23:continuous-state-transform",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I23:center-reversal-semantics",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I23:reduced-motion",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I25:active-window-response",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I25:entry-and-reload",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    },
+    {
+      "id": "I25:repeated-normal-speed",
+      "status": "incomplete",
+      "finding": "Required observation is missing",
+      "pending": false
+    }
+  ],
+  "measurement_checks": [],
+  "limitations": [
+    "Validates declared coverage and file/context linkage, not observation truth or rendered quality.",
+    "An image extension and nonempty file do not prove a genuine or complete browser capture.",
+    "Ready means this declared acceptance contract passes; it does not prove accessibility, taste approval, natural triggering or universal defect freedom."
+  ]
+}
