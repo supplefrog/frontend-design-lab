@@ -6,7 +6,7 @@ Read `docs/CONTINUATION.md` before editing. Preserve both examples and their sel
 
 This repository supplies relevant skill snapshots under `.agents/skills`. Read `frontend-ui-engineering/SKILL.md`, its defect-acceptance, material-reconstruction and motion references for UI work; read other skills only when their procedures apply. Record actual skill/support-file reads and hashes in the cloud receipt. Do not assume local skills, browser state or Windows applications were inherited.
 
-Before designing or structurally repairing an AI workflow, read `.agents/skills/outcome-first-workflow-design/SKILL.md` and assess researched mechanisms against the intended human outcome before selecting a repair. Reuse current source-bound research when it settles the decision.
+Read `.agents/context/core.md` before selecting a nontrivial approach. Its proactive solution research and observed-failure rules apply throughout this project. For AI workflow design or structural repair, read `.agents/skills/outcome-first-workflow-design/SKILL.md`. Reuse adequate verified evidence and keep routine established-cause repairs direct.
 
 Read `.agents/context/core.md` before delegation and `.agents/context/code-verification.md` before nontrivial code review. These are pinned execution preferences; their Windows source locations are provenance, not paths to use in cloud. The repository's supplied snapshots are project-local context. Shared instruction changes belong in canonical Agent Sync and its official reconciliation lane, not a direct edit of deployed copies.
 
