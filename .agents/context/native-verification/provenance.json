@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-10T01:36:12.186108+00:00",
+  "source": "Read-only capture of the installed Hermes software-development verifier and its three-sibling relative dependency tree",
+  "scope": "Project cloud guidance snapshot; does not install Hermes, attest the latest upstream source, or prove review execution or product quality",
+  "files": [
+    {
+      "path": "code-change-verification/SKILL.md",
+      "sha256": "c1b0c0e05e72f06e56c9e193136e96e84ed3c474521a6ae72e592d5bc637f899",
+      "bytes": 8876
+    },
+    {
+      "path": "test-driven-development/SKILL.md",
+      "sha256": "4744344fd262ccb36d51fefbd866e376171e4114d751373863b3012d25167ecd",
+      "bytes": 6984
+    },
+    {
+      "path": "software-verification-workflows/references/acceptance-boundary-controls.md",
+      "sha256": "66cb25f73bc5e7a3153114e05005e9e6fde7cac1c3c50bde294750570a0f6fc5",
+      "bytes": 798
+    },
+    {
+      "path": "software-verification-workflows/references/event-driven-integration-review/references/host-runtime-probes.md",
+      "sha256": "33a41187dd52548c8220d1a1fbdec651dd016a122421b8f9d6df45033c6a4745",
+      "bytes": 2036
+    },
+    {
+      "path": "software-verification-workflows/references/event-driven-integration-review/SKILL.md",
+      "sha256": "c9b98331820d58530e3ff3bf47da448b33bb26f27d6f78842e3aee4f88c55873",
+      "bytes": 6716
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/references/ephemeral-session-review-repro.md",
+      "sha256": "8d67257a49d5c4eb36115f32fb190a49fbb15407d03d74937b267ade1107571b",
+      "bytes": 4902
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/references/human-off-orchestration-probes.md",
+      "sha256": "5d79033feb69cb1eda8a19c464400b4d4e25d1d7a3ee436cae6be2bf963f8a5f",
+      "bytes": 4765
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/references/legacy-rebuild-and-lease-probes.md",
+      "sha256": "75d5cd8dc30f5a2fa5f851768c81c9f3371ee1d5c1c3215d42a4fc448249ab77",
+      "bytes": 1806
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/references/never-active-prune-authority.md",
+      "sha256": "0283ddb3da5195b67d6e33480a6441160922b8ffc42db4ca337f48216b6483cf",
+      "bytes": 1707
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/references/orchestration-lifecycle-review-probes.md",
+      "sha256": "2a36adc0573a2ad7d6b375ba9b0a415dc63303eb271eae262c37f028adb1386c",
+      "bytes": 2364
+    },
+    {
+      "path": "software-verification-workflows/references/persistence-lifecycle-review/SKILL.md",
+      "sha256": "3e57218ac5de70c6dd152bd3451423a28d1733f2cbd6c117f855970c287fdbac",
+      "bytes": 14856
+    },
+    {
+      "path": "software-verification-workflows/references/sdlc-review/SKILL.md",
+      "sha256": "ac28292ff1e43b51c4518ad1094c07596fe89f1fd29d92f2015174d085935f6e",
+      "bytes": 642
+    },
+    {
+      "path": "software-verification-workflows/references/semantic-merge-verification/references/semantic-merge-checklist.md",
+      "sha256": "404ec7cfcbaf18acdad089d6c67e2b8841bd6c04f4cdbe30f60a58a4509e6738",
+      "bytes": 1530
+    },
+    {
+      "path": "software-verification-workflows/references/semantic-merge-verification/SKILL.md",
+      "sha256": "08794e951b1b3c89b0ed4d36f8c08e91e3b085096dcdd40a8848ec4d5713a738",
+      "bytes": 7439
+    },
+    {
+      "path": "software-verification-workflows/references/structured-contract-verification/references/fail-closed-probe-matrix.md",
+      "sha256": "09b1af0da9051fb84a934e4c31973e7d23c2774e742ea8a6861d1ae2ff3fe7bb",
+      "bytes": 1742
+    },
+    {
+      "path": "software-verification-workflows/references/structured-contract-verification/SKILL.md",
+      "sha256": "7c1d011ce7a2ec800cb7be79d36f05251b0157781af46e0417aa249521e9b777",
+      "bytes": 13356
+    },
+    {
+      "path": "software-verification-workflows/references/technical-documentation-verification.md",
+      "sha256": "074f03c28b0e03c94e34e0fe9ba7f12770481a7d903a5851ec366496fa94f471",
+      "bytes": 3105
+    },
+    {
+      "path": "software-verification-workflows/SKILL.md",
+      "sha256": "4de1c5f21fb12f66aa164cc0a7f62514f645084cd56e70fd5edea87d984a1e9c",
+      "bytes": 5871
+    }
+  ]
+}

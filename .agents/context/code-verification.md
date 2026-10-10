@@ -4,6 +4,10 @@ Use for nontrivial local code verification, simplification or readiness review b
 
 The procedure owner is Hermes's native `skills/software-development/code-change-verification/SKILL.md`. Read its full current body rather than inferring the procedure from its description or reproducing it here. Codex can read it as a file; Hermes uses its normal native skill loader. This adapter establishes source access, not a second verifier or a new skill admission.
 
+## Project cloud source
+
+In this repository's reusable cloud environment, read the full captured verifier at `.agents/context/native-verification/code-change-verification/SKILL.md`. Its provenance and file hashes are in `.agents/context/native-verification/provenance.json`. Use the sibling captured trees for the conditional dependencies below. This is a source snapshot, not an active Hermes installation or proof that its review gate ran. Skip the PC-only source resolution below in this cloud lane; report any missing required dependency and continue only independently sufficient checks. On the PC, retain the native resolution procedure.
+
 ## Resolve and load the source
 
 1. Resolve Agent Sync from `source_snapshot` in the shared skill root's `.agent-signal-fleet.json`, stripping `render/fleet`.
