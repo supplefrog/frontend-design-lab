@@ -336,8 +336,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/coverage-schema.md",
-      "sha256": "2c735809bdce54d2e0fb0ad3cae5cfd779a20f5c0fe614fba27a19020fa4ce4c",
-      "bytes": 17723
+      "sha256": "c8273486505cf8680373832280b700a495222a2463300002473c23d9c30fd50b",
+      "bytes": 25997
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/defect-acceptance.md",
@@ -431,8 +431,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/scripts/frontend_coverage.py",
-      "sha256": "00391cb3bb564ccd26c893bf1570ac92744cf4a51d5f2457d1c2ebbb70083603",
-      "bytes": 36213
+      "sha256": "2045db2a8f2f2323b71f0250e9bbe491af43254ac5ff3a9dda2b3cb863bc05ab",
+      "bytes": 49683
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/scripts/frontend_gate.py",
@@ -471,8 +471,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
-      "sha256": "f9d4f0b9293d146ef9c7782d935ea07a43899717dd24cacfb5cc461151ca5d04",
-      "bytes": 29765
+      "sha256": "0341e0e745a9708c28cff2ec526d95c9a68ebbb4113cef9110ac3ddff4151fa4",
+      "bytes": 30170
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SOURCE.json",
@@ -693,12 +693,32 @@
       "path": ".agents/context/native-verification/test-driven-development/SKILL.md",
       "sha256": "4744344fd262ccb36d51fefbd866e376171e4114d751373863b3012d25167ecd",
       "bytes": 6984
+    },
+    {
+      "path": ".agents/skills/frontend-ui-engineering/scripts/test_frontend_delivery.py",
+      "bytes": 12307,
+      "sha256": "c10606fb25758dce0fe308c6e18bfdd4eb2f46eae43822c76a615324ca22bf64"
+    },
+    {
+      "path": "docs/CONTINUATION.md",
+      "bytes": 12377,
+      "sha256": "86cf5cbeed8ba6779f25868b967411acc871cba7bf42bc910a2641fc41fd0e9f"
+    },
+    {
+      "path": "outputs/consistency/library-mockup.png",
+      "bytes": 1954042,
+      "sha256": "754635b92b942ae0653cfb52674894cfa83557acbb89111f1d5d53bd6c3bdb67"
+    },
+    {
+      "path": "outputs/image-studies/instrument-mockup.png",
+      "bytes": 2019808,
+      "sha256": "6c8938d4e2102c59c07bed6dbb64e60e344c0d1585b1e1f904cadf1fe3a8404f"
     }
   ],
   "excluded": [
     "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
   ],
   "instruction_source_commit": "224c7a3c5bde85b57215b7b26c3d7ec5bf98a172",
-  "frontend_skill_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07",
+  "frontend_skill_source_commit": "a3a40e9b886add9cd83afaa4dea2d17b1d9cbf24",
   "outcome_workflow_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07"
 }
