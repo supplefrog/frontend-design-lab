@@ -341,8 +341,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/defect-acceptance.md",
-      "sha256": "d9f793c20515059a1ca75316aac660de297634877bd2f9f815406fcda1667d55",
-      "bytes": 15290
+      "sha256": "d46241c4dcd29a375606bd89273a03fc5321cf55b701b2bbe17cce3f71ab199d",
+      "bytes": 16047
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/defect-gate-schema.md",
@@ -351,8 +351,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/design-judgment.md",
-      "sha256": "e06beca7ef9c7dddbc8ebdb44060fbb7739288d2e9772bb01bf88333e0319f9f",
-      "bytes": 18729
+      "sha256": "ba40684e9ac63475649ef3a0044ef48c7ca0fce245e7e7d137e71a381ac1f760",
+      "bytes": 20100
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/liked-motion-options.md",
@@ -386,8 +386,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/provenance.md",
-      "sha256": "0fada853aa4d4d8d50bbfa1591d012a57c351b015d04062fcf972517593349e0",
-      "bytes": 26599
+      "sha256": "575224739df560111408fd9c6c0b13e6d692efeaf09dc209b31b7ca36e5a9bf3",
+      "bytes": 29130
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/regression-catalog.json",
@@ -471,7 +471,7 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
-      "sha256": "7a85990ead2df1d2607d78fcc9ae925f31b22ccb6b13e94905a11cf479d2a1d9",
+      "sha256": "f9d4f0b9293d146ef9c7782d935ea07a43899717dd24cacfb5cc461151ca5d04",
       "bytes": 29765
     },
     {
@@ -556,13 +556,13 @@
     },
     {
       "path": ".agents/skills/outcome-first-workflow-design/SKILL.md",
-      "sha256": "a292cb113f0392a208da080c608ddcec214756d19876ae7dc25d9635b37120e3",
-      "bytes": 6875
+      "sha256": "21abc6f27f91e8fe213cbd067e6434dda3ac9df4b38950b1d9b219dd1fe627d7",
+      "bytes": 7764
     },
     {
       "path": ".agents/context/core.md",
-      "sha256": "65854743578d30f9f10d05a83e370cd53ede76da00710a29288d6e6f7c8168b0",
-      "bytes": 11787
+      "sha256": "a8c95ac5076e0c1f0f580235daa80a99f796ff29cafa6e4545a8981fb5a89009",
+      "bytes": 11981
     },
     {
       "path": ".agents/context/code-verification.md",
@@ -603,6 +603,7 @@
   "excluded": [
     "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
   ],
-  "instruction_source_commit": "122e729ef9fa60900ce20b0f107e9561f3f107e2",
-  "frontend_skill_source_commit": "b6d6cdc50530ac539bf2dbb9ccaa6c55c61b7d28"
+  "instruction_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07",
+  "frontend_skill_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07",
+  "outcome_workflow_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07"
 }
