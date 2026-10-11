@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "accepted_on": "2026-10-12",
+  "approval": "I think mindlatch is in a perfect place now. sync it",
+  "authoritative_source": "Accepted local Mindlatch preview bolt-status-v1, palette=bright",
+  "entrypoint": "outputs/mindlatch-maintained/index.html",
+  "excluded_comparisons": [
+    "palette-preview.html",
+    "table-dial-preview.html"
+  ],
+  "files": [
+    {
+      "path": "outputs/consistency/components/vendor/LICENSE-three.txt",
+      "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601",
+      "bytes": 1081
+    },
+    {
+      "path": "outputs/consistency/components/vendor/three.core.min.js",
+      "sha256": "61ba0df005b05991361d040d8ff670e1aadfd0ce7aeebd1fdb0725957a8957de",
+      "bytes": 381124
+    },
+    {
+      "path": "outputs/consistency/components/vendor/three.module.min.js",
+      "sha256": "e2b5ee6bccd38fd6d8a2428546b83c5f2426d84b152ef82be8055556e3b40eb6",
+      "bytes": 338908
+    },
+    {
+      "path": "outputs/mindlatch-maintained/app.css",
+      "sha256": "6b318737169a1f45aad8cba94d378694e15ffd8f22f365a8f7520e889fc731f5",
+      "bytes": 59146
+    },
+    {
+      "path": "outputs/mindlatch-maintained/app.js",
+      "sha256": "aebf6fffa6de941b718e239052d6f63b4763df8eb2ba3a6ed367d37294ad8a72",
+      "bytes": 47231
+    },
+    {
+      "path": "outputs/mindlatch-maintained/assets/chrome-play.png",
+      "sha256": "974a9434d4a51c50989e3ca827111da1ac36f2d046995733c180ae0e64170831",
+      "bytes": 2049588
+    },
+    {
+      "path": "outputs/mindlatch-maintained/assets/phone-reference.png",
+      "sha256": "ee1df34eca7f796c8d269aa18c1a3ed1f7911fca3adf828251b4a8247fbd5444",
+      "bytes": 1778382
+    },
+    {
+      "path": "outputs/mindlatch-maintained/assets/replay-landscape.png",
+      "sha256": "41757069dbfe307be7c331d210c27146a336ffa3ec3995176c21a7d7ff9db347",
+      "bytes": 1664043
+    },
+    {
+      "path": "outputs/mindlatch-maintained/assets/tension-control.png",
+      "sha256": "422416cdac9cf4cc47e9703a5f2cf51c32cc02e7d8662bcbe08ee8ea5ee6c272",
+      "bytes": 1542847
+    },
+    {
+      "path": "outputs/mindlatch-maintained/clouds.js",
+      "sha256": "232cb842bb2983d85ffadd245375e9fcd30a519ebf20f26301ff9ba817cd3694",
+      "bytes": 15817
+    },
+    {
+      "path": "outputs/mindlatch-maintained/controls-3d.js",
+      "sha256": "59517c63ee5b6eb0a613ba066504c94a598841eef09f802fd82c09dc2a51501e",
+      "bytes": 40832
+    },
+    {
+      "path": "outputs/mindlatch-maintained/index.html",
+      "sha256": "af8cc700b1b026efdc7e12d99052d9864126d24aff7a392afdd379d5c570f6d8",
+      "bytes": 12100
+    },
+    {
+      "path": "outputs/mindlatch-maintained/notes-core.js",
+      "sha256": "0187918e5d0e0cff52637c424746c2b52c2e52d6235c940c43c1f810716d2339",
+      "bytes": 9679
+    },
+    {
+      "path": "outputs/mindlatch-maintained/source-manifest.json",
+      "sha256": "c82ece18153b3bc809cdd21f10e9414806943fd5fdca32553c40e879919f32bf",
+      "bytes": 3336
+    },
+    {
+      "path": "outputs/mindlatch/assets/replay-landscape.png",
+      "sha256": "813a2c7f177f345f3a7985073c7fb27728451dcaaf2a4c94fc7202e5dcc2a091",
+      "bytes": 1702907
+    }
+  ],
+  "render_settings": {
+    "output_canvas_per_dimension": 3,
+    "supersampling_per_dimension": 2,
+    "display_filter": "tent",
+    "smaa": "off",
+    "msaa": 0,
+    "temporal": false
+  },
+  "verification_scope": "Exact accepted runtime byte sync. Prior local browser observations are retained; no fresh visual or hardware performance certification is inferred."
+}

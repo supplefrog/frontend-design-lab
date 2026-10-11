@@ -1,5 +1,7 @@
 # Accepted qualities and pending work
 
+2026-10-12 current Mindlatch: the user approved the completed local render and requested sync. Use [the accepted source and verification record](MINDLATCH_ACCEPTED.md) and `outputs/mindlatch-maintained/index.html`. The older Mindlatch pending-work and candidate records below are historical; this approval supersedes their product acceptance state. Sondara remains separate and unchanged.
+
 2026-10-10. The user asks to preserve these examples on GitHub and continue in cloud with the relevant skills. Public visibility is authorized. The fitted strip is preferred over floating status feedback. At least this level of polish is expected in future generations; known flaws must be caught through the workflow, not repeated human defect spotting.
 
 ## Preserved identities

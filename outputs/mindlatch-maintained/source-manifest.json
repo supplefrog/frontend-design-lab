@@ -1,0 +1,76 @@
+{
+  "base_commit": "afcf28812448384a9f31c4547ed9868151e8ac60",
+  "base_directory": "outputs/mindlatch-trial",
+  "status": "local user-selected render; comparison experiments archived",
+  "render_settings": {
+    "smaa": "off",
+    "output_canvas_per_dimension": 3,
+    "msaa": 0,
+    "supersampling_per_dimension": 2,
+    "temporal": false,
+    "display_filter": "tent"
+  },
+  "mechanism": {
+    "travel_degrees": 180,
+    "middle": "circular chrome wheel with fine grooves",
+    "housing_to_knob_height": 1.75,
+    "framing": "fixed center of complete swept solid assembly; independent expanded shadow bounds"
+  },
+  "breadth_gauge": {
+    "position": "right of lever",
+    "style": "fine printed ticks with chrome tracking marker",
+    "labels": [
+      "BROADER",
+      "TIGHTER"
+    ],
+    "source": "reference positioning and styling; wording adapted to Mindlatch",
+    "motion": "same rendered angle and frame as lever; no independent CSS transition; direct input fallback"
+  },
+  "status_display": {
+    "style": "chrome-ended glass water tube with violet, gold, pink and blue spheres",
+    "motion": "gentle independent bobbing; pauses in standby; static with reduced motion",
+    "content": "original live status and Undo action preserved",
+    "alignment": "ends share the replay screen frame edges at all layout breakpoints",
+    "overflow": "Long messages pause 1.4 seconds, scroll left at 22 CSS pixels per second, pause at the end, then restart. Manual hover/focus, reduced motion, standby, hidden page and offscreen display pause automatic scrolling; manual scrolling/Home/End retained."
+  },
+  "interface_scale": 0.75,
+  "palette": {
+    "baseline": "original reference palette",
+    "saturation_multiplier": 0.9,
+    "saturation_model": "HSL; hue and lightness retained",
+    "background": "#ea7fa9",
+    "gradient_stops": {
+      "0%": "#fa98b1",
+      "30%": "#f66090",
+      "70%": "#ee5087",
+      "100%": "#f87b9f"
+    },
+    "shadow_opacity": "original alpha retained",
+    "blue_multiplier": 0.9,
+    "scope": "all gradient stops, backdrop, PAIR button and ridge, dial, pink lamp and accents; accepted lighter stops unchanged",
+    "background_selection": "Default pink at original lab hue, 71.8% saturation and 70.8% lightness; gold/pink floating balls select Butter yellow/#ffe69a or pink/#ea7fa9. Last selection persists in localStorage; chrome dial reuses Panel face.",
+    "dial": "var(--pink-face), #f66090; chrome finish unchanged",
+    "background_storage_key": "mindlatch.table-background"
+  },
+  "color_lab": {
+    "parameters": [
+      "table saturation 0-100",
+      "table lightness 40-85",
+      "dial hue 0-360",
+      "dial saturation 81.6-100",
+      "dial lightness 35-70"
+    ],
+    "families": [
+      "pink",
+      "yellow"
+    ],
+    "dial_finish": "current chrome properties retained; color only",
+    "sharing": "current slider values encoded in lab URL",
+    "reset": "butter yellow table and Panel face pink dial",
+    "anchors": [
+      "Panel face",
+      "Panel shade"
+    ]
+  },
+  "rail_bolt_motion": "Navigation rail height follows workbench height with the same 320ms easing, retargets from presented height on reversal; bolt retains fixed size instead of being clipped outside the shrinking chassis."
+}

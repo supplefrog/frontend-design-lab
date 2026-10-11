@@ -13,7 +13,8 @@ python3 -m http.server 8784
 Open `http://localhost:8784/` for the gallery. No product dependency installation is required; Three.js is vendored. Browser audio uses an authored synthetic recording, and notes/excerpts are stored only in that browser.
 
 - [Sondara](outputs/field-audio/index.html): translucent pane, luminous sound ribbons and live audio response.
-- [Mindlatch with fitted strip](outputs/mindlatch-strip-study/index.html): the user's preferred finishing treatment.
+- [Accepted Mindlatch](outputs/mindlatch-maintained/index.html): completed local render approved on 2026-10-12. [Source and acceptance record](docs/MINDLATCH_ACCEPTED.md).
+- [Historical Mindlatch with fitted strip](outputs/mindlatch-strip-study/index.html): the user's preferred finishing treatment.
 - [Mindlatch current controls](outputs/mindlatch-trial/index.html): direct physical control input and cached scene rendering.
 - [Mindlatch earlier implementation](outputs/mindlatch/index.html): preserved comparison.
 - [Accepted qualities and pending work](docs/CONTINUATION.md).
