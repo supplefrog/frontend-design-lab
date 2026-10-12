@@ -471,8 +471,8 @@
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SKILL.md",
-      "sha256": "42294b4ca572ac69ec7e7e99f2ee32cbe0a4d580326d5754b5684432b434bb9d",
-      "bytes": 32768
+      "sha256": "4ae8396751089f61cae8d5de1b49a60efc410b9a3e76e9385c7872fc0dfcb8b9",
+      "bytes": 32887
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/SOURCE.json",
@@ -561,8 +561,8 @@
     },
     {
       "path": ".agents/context/core.md",
-      "sha256": "e2f1902892c94d5b2212ac69c8489800ed5f5fa5ddcf8ad2e1c831621d2d928b",
-      "bytes": 14421
+      "sha256": "6d1b626f2f56dea6ac23672fec53577ef796347ebb805f1f6aca40538be525ea",
+      "bytes": 14648
     },
     {
       "path": ".agents/context/code-verification.md",
@@ -776,13 +776,13 @@
     },
     {
       "path": "docs/CURRENT_HANDOFF.md",
-      "sha256": "8b88f0a65996fdfbdc10f89d371173701092e2dc77d3d37c0c3d443485f881ae",
-      "bytes": 4199
+      "sha256": "8c8a78fd06a4f32e882056a51eec3d354214492499bc819b510d1700e07a281f",
+      "bytes": 4367
     },
     {
       "path": ".agents/skills/frontend-ui-engineering/references/design-planning.md",
-      "sha256": "4532a4024d22e40e30e461d56857704af177f55946380c66a8292b3a408e2fd4",
-      "bytes": 2895
+      "sha256": "28a90289071183c9b732c0cb3e15e8e61e9e04fafd6e1afe5aa96a46e03633c6",
+      "bytes": 4051
     },
     {
       "path": "AGENTS.md",
@@ -798,15 +798,15 @@
   "excluded": [
     "Credentials, browser/account state, user-created browser notes, memories, conversation/session logs, vendor runtimes, old Git worktrees, unreviewed native bridge projects, raw failed exports, host-bundled guides without verified public redistribution terms"
   ],
-  "instruction_source_commit": "d0a57fe43210c589f66366a24f36b1b51da03651",
-  "frontend_skill_source_commit": "d0a57fe43210c589f66366a24f36b1b51da03651",
+  "instruction_source_commit": "a41539dcd4516ba02b51b5da17dcffc689f87fb1",
+  "frontend_skill_source_commit": "a41539dcd4516ba02b51b5da17dcffc689f87fb1",
   "outcome_workflow_source_commit": "fa58cd8726521f575c5a0ca6a98014ba4354da07",
   "breadcrumb_skill_source_commit": "d0a57fe43210c589f66366a24f36b1b51da03651",
   "policy_refresh": {
     "date": "2026-10-12",
-    "agent_sync_ready_commit": "b0710c9fff216e31782338b3397ae9a82ed71e87",
+    "agent_sync_ready_commit": "82c5e59e15d302fb92c2c90f58d115cf48d4c7dd",
     "summary": "docs/CURRENT_HANDOFF.md",
-    "scope": "Policy and decision-continuity snapshots only; original product rows preserved.",
+    "scope": "Sonnet xhigh pre-image brief and selected-image design plan; policy-only refresh, original product rows preserved.",
     "activation": "Receiver reads and active cloud reload not verified."
   }
 }
