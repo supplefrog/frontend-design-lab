@@ -8,7 +8,7 @@ This file owns shared standing rules, model preferences, and reviewer dispatch. 
 | Host formatting, artifact links, and necessary native differences | `adapters/codex.json`, `adapters/hermes.json` |
 | Model preferences and fresh reviewer dispatch | `surfaces/core.md`; host overlays load this owner before dispatch |
 | Instruction content, triggers, sentence-level intent, and evaluation | `skills/instruction-authoring` |
-| Automatic checked improvements from reusable workflows during work | `skills/instruction-authoring`; thin standing reminders in the effective host overlays |
+| Supported instruction corrections during work | `skills/instruction-authoring`; thin standing reminders in the effective host overlays |
 | Unresolved Hermes placement | `skills/hermes-self-engineering` |
 | Cross-host placement, parity, deployment, and recovery | `skills/cross-agent-surface-engineering` |
 | Unresolved workflow design | `skills/outcome-first-workflow-design` |
@@ -48,13 +48,23 @@ This block owns approved desired values. Native adapters read it; observations a
 ```
 <!-- /agent-sync-preferences -->
 
-The current migration target is GPT-6.1 Sol for reasoning, planning, coding, design direction, and review. Do not introduce Astra, Fable, Kimi, or a cheaper reasoning tier unless the user selects one. Preserve each role's supported reasoning effort. Specialized embedding, transcription, rendering, and media-generation tools are capability dependencies, not reasoning-model preferences; check compatibility before proposing their replacement.
+The general migration target is GPT-6.1 Sol for reasoning, planning, coding, design direction, and review, subject to the frontend design-planning exception below. Do not introduce Astra, Fable, Kimi, or a cheaper reasoning tier unless the user selects one. Preserve each role's supported reasoning effort. Specialized embedding, transcription, rendering, and media-generation tools are capability dependencies, not reasoning-model preferences; check compatibility before proposing their replacement.
+
+### Frontend design-planning exception
+
+For substantial frontend design planning, prefer Sonnet 5.5 Extra/xhigh through the user's free Claude web account when that exact route is available. Reserve its limited quota for implementation-ready design direction; no routine coding, repository exploration, diagnostic tooling or general engineering/workflow planning. Do not upgrade the account, use a paid/API route, or infer free availability from the model name.
+
+When the free Claude route is unavailable, quota-limited or cannot supply the selected model/effort, use GPT-6 Astra (`gpt-6-astra`) through an authorized native Codex route: High by default, xhigh for harder design planning or an explicit user choice. Report the actual planner, effort and fallback reason. If the selected fallback cannot run under the host/session constraints, report the limitation rather than silently substituting Sol or a paid provider. Current permissions and dispatch restrictions still apply.
+
+This is a design-planner exception, not a change to general runtime defaults, implementation workers or reviewer roles above. The frontend skill owns phase placement and human taste selection; planner advice never establishes acceptance. The user's current choice supersedes the earlier Sol design-planner fallback.
 
 A user-authorized model migration includes the named legacy defaults, examples, workflow definitions, and resumable model pins, including historical configurations when selected. Update their executable model choices and any dependent identity/validation fields. Record what changed without claiming old executions used the replacement model. Generic preservation advice and superseded project prose cannot exempt an explicitly selected migration target.
 
 ## Dispatch and review
 
 Choose execution within the authorized task without another permission question solely for orchestration. Use native bounded workers for separate work or review when they materially improve the result; parallelize independent scopes and serialize shared contracts and integration. Use `dynamic-workflows` when dependencies, resumability, or durable acceptance make a persisted DAG useful, rather than for every parallel task. The agent may select a supported routed contract under this standing permission; retain its exact route, budget, approval and identity checks. Keep simple work within the chosen environment. Preserve existing run pins unless the user's migration scope selects them for replacement; changing defaults alone does not migrate running tasks.
+
+Before launching concurrent workers, configure the coordinating parent with the linear role's high reasoning effort. Keep bounded workers and reviewers at their own role preferences. Verify the configured effort; if the host cannot change an active turn, report that limit and apply the preference to the next supported coordinating turn.
 
 Concurrent writers to one Git project use separate worktrees. Read-only reviewers can share the inspected checkout; serialized work needs no extra checkout. Where native chat messaging is available, use it for necessary scope or ready-change coordination within the user's authorization. Messaging does not isolate writes. Where it is unavailable, reuse the existing project handoff and publication receipts; do not add a coordination service. A thread the user is explicitly handling stays with them unless they request collaboration.
 
@@ -79,14 +89,16 @@ Only this delimited section is projected into host overlays. Keep shared behavio
 Use simple, direct language with enough explanation to understand or decide. Explain technical terms when useful. Omit repetition and routine narration; preserve material uncertainty, blockers, and evidence.
 
 ## Authoring
-Load Agent Sync's `skills/instruction-authoring/SKILL.md` before authoring instructions or saving preferences. During skill use, apply verified reusable improvements and remove stale, redundant or conflicting guidance at its canonical owner. Keep uncertain lessons staged and project rules local; render overlays.
+Load `skills/instruction-authoring/SKILL.md` before authoring instructions or saving preferences. Edit for supported corrections or explicit user preferences in scope; success alone warrants no edit. Memory writes need an explicit user request. Stage uncertain lessons; keep project rules local; render overlays.
 
 ## Scope
 Complete the requested outcome and dependencies autonomously. Choose by total system cost, not patch size. For material redesign, challenge assumed constraints and compare the strongest credible alternative. Ask before unrelated outcomes or actions beyond authorization. Stop when criteria are met.
 
+Judge completion by the user's intended outcome and required constraints. Load instruction owners and required references for necessary protocols, explicit skill requests or missing knowledge. Finish those reads before the decisions or actions they govern; apply requirements already in context without rereading. Select optional guidance by its contribution to output quality and total cost.
+
 Handle trivial questions directly. For growing work, handoff or closeout, load `breadcrumb-records` for project scope, native association and context. Use one task-local scratch folder; archive owned stale files recoverably. Preserve unrelated or unfinished work.
 
-Project work defaults to a compatible configured native Codex cloud workspace or repository-linked reusable environment. Reuse it; use the PC for tasks requiring its local apps, files or hardware. Verify compatibility and access; a one-off sandbox is not a reusable workspace. Export artifacts before teardown. Existing spending and privacy limits apply.
+Use a compatible, accessible configured native Codex cloud workspace or repository-linked reusable environment for project work; reuse it. Use the PC for local apps, files or hardware. One-off sandboxes do not qualify. Export artifacts before teardown; retain spending and privacy limits.
 
 ## Evidence
 Verify uncertain or changeable facts and action identifiers that affect the result. Supplied facts and transformations need no lookup unless correctness is at issue. Label inference and uncertainty; require evidence for completion. Observed failures within the claimed scope block passing or readiness claims even when automated checks are green; repair the cause and inadequate checks, then rerun. Before comparative tests, inspect mechanisms and the baseline; reuse evidence and use the cheapest check that could change the decision.
@@ -97,7 +109,7 @@ Before selecting a nontrivial approach, proactively research relevant solutions 
 For web research, use Parallel first; use Tavily while Parallel is unavailable or rate-limited.
 
 ## Execution
-Before dispatch, resolve Agent Sync from `source_snapshot` in the shared skill root's `.agent-signal-fleet.json` (strip `render/fleet`); read `surfaces/core.md`. Concurrent Git writers use separate worktrees. Delegate bounded work when useful. Use `dynamic-workflows` for useful dependent or resumable DAGs; keep simple work in the parent task. Share context; the parent integrates and verifies. Spending and action limits apply.
+Before dispatch, resolve Agent Sync via the shared skill root's `.agent-signal-fleet.json` `source_snapshot` (strip `render/fleet`); read `surfaces/core.md`. Concurrent Git writers use separate worktrees. Delegate useful bounded work with context; the parent integrates and verifies. Use `dynamic-workflows` for useful dependent or resumable DAGs; keep simple work in the parent. Retain spending and action limits.
 
 Cloud agents do not inherit local skills. Supply applicable `SKILL.md` files, required support files and task context; verify reads. Remote commands retain the current model's context.
 

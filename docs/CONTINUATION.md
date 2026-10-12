@@ -1,5 +1,7 @@
 # Accepted qualities and pending work
 
+Current policy and next-action authority: [CURRENT_HANDOFF.md](CURRENT_HANDOFF.md). It supersedes the older policy pins and Mindlatch resume rows below, while retaining historical receipts. Current private Sondara decisions require the latest private checkpoint; this public history is not a restart instruction.
+
 2026-10-12 current Mindlatch: the user approved the completed local render and requested sync. Use [the accepted source and verification record](MINDLATCH_ACCEPTED.md) and `outputs/mindlatch-maintained/index.html`. The older Mindlatch pending-work and candidate records below are historical; this approval supersedes their product acceptance state. Sondara remains separate and unchanged.
 
 2026-10-10. The user asks to preserve these examples on GitHub and continue in cloud with the relevant skills. Public visibility is authorized. The fitted strip is preferred over floating status feedback. At least this level of polish is expected in future generations; known flaws must be caught through the workflow, not repeated human defect spotting.
@@ -19,7 +21,7 @@ The user accepted the sharpened appearance with “It's good now.” Their loade
 - Motion must complete its idea and reverse coherently. No abrupt page shift on an already-current logo or destination unless an explicit return-to-anchor/restart action promises it.
 - Curate fitting finishing details proactively. Surprises should belong to the selected design, with readable content, stable layout and usable reduced-motion behavior.
 
-## Work to resume
+## Historical work-to-resume list
 
 1. Carry the preferred fitted strip into the maintained Mindlatch revision after checking its long messages, keyboard access and Undo operation. Preserve its fixed cavity; compare the main and study before merging.
 2. Complete the **visible animated clouds and bloom** in Mindlatch. Existing `clouds.js` has a drifting-sky shader, but the user still identifies this finishing effect as pending and asks for animated bloom too. Judge whether cloud movement and subtle scene-coherent light/glow are actually visible and fitting at ordinary viewing size. Do not count shader presence or changed pixels as approval. Preserve landscape/mountains/sun and readable note text, avoid obvious full-image sliding, and verify hidden/offscreen/standby/reduced-motion behavior and performance in the actual runtime.

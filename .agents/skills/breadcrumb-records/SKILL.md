@@ -1,14 +1,14 @@
 ---
 name: breadcrumb-records
-description: Use when work grows into a project, or at handoff, interruption and closeout. Organize owned files and preserve decision reasons, evidence and safe continuation.
-version: 1.1.1
+description: Use when work grows into a project, or at project release, handoff, interruption and closeout. Organize owned files and preserve decision reasons, evidence and safe continuation.
+version: 1.1.3
 license: UNLICENSED
 compatibility: Python 3.11+; local evidence files; one writer per record.
 ---
 
 # Breadcrumb Records
 
-Use when exploratory work becomes durable, or for an explicit breadcrumb, substantial handoff, interruption or closeout. On resume, consult the existing record before repeating the investigation. Keep trivial replies and isolated corrections lightweight; extend an equivalent project record rather than create a duplicate. This skill owns the project lifecycle; architecture choices remain with `project-prior-art`, reusable instruction corrections with `instruction-authoring`, and native thread association with the host adapter.
+Use when exploratory work becomes durable, or for a project release, explicit breadcrumb, substantial handoff, interruption or closeout. On resume, consult the existing record before repeating the investigation. Keep trivial replies and isolated corrections lightweight; extend an equivalent project record rather than create a duplicate. This skill owns the project lifecycle; architecture choices remain with `project-prior-art`, reusable instruction corrections with `instruction-authoring`, and native thread association with the host adapter.
 
 ## Decide and organize
 
@@ -20,6 +20,8 @@ Use when exploratory work becomes durable, or for an explicit breadcrumb, substa
 - Move only clearly task-owned files through an explicit source/destination inventory, retaining recovery and checking collisions, references, Git/worktree links and entrypoints. Leave uncertain, shared or unfinished files in place. Filesystem organization and native thread/project membership are separate actions: use the supported host adapter, read back the exact project/thread IDs and report any incomplete association. Never edit conversation databases as an automatic fallback. Host procedures and current limits: [project lifecycle adapters](references/host-association.md).
 
 ## Record, continue and close out
+
+For an agent, cloud or fresh-context handoff, read [handoff-continuity](references/handoff-continuity.md) before declaring intake complete. It compares active decisions with the destination's effective instructions; matching archive bytes alone does not establish that continuity.
 
 Keep one compact record per logical change in the project's existing work/docs area, linked from its README, AGENTS.md, task index or equivalent. Extend an equivalent record; do not duplicate a README, ADR or status record, create a global log, or put private records in the shared skill repository.
 
@@ -35,6 +37,10 @@ Before interruption or delegation, save state and next action; do not mark unfin
 At completion, verify deliverables, commands, links and record completeness; report material gaps and update the result/limits. Keep consequential architecture rationale beside the decision, using an ADR when a later maintainer may revisit it. Use concise outcome-first prose.
 
 Route supported reusable methods/corrections to the existing `instruction-authoring` owner under current authorization; project facts/taste stay local and memory obeys host authorization. Completion alone requires no new skill and grants no shared admission or publication authority.
+
+## Release history for maintained repositories
+
+When preparing a versioned release for a repository the user owns or maintains, update its existing changelog; create `CHANGELOG.md` if none exists. For each published version, record the version/date, meaningful changes, compatibility or migration needs, known drawbacks and relevant upgrade guidance. Link the release or tag and supporting evidence; distinguish measured performance or quality changes from user observations and untested expectations. Label published prereleases experimental where applicable, and keep rejected or unpublished experiments in development notes. Follow the repository's conventions for contributions to other projects. Prepare the entry before authorized publication, verify it reflects the released revision, and preserve earlier entries. Writing release documentation grants no publication permission.
 
 ## Recover owned artifacts
 
